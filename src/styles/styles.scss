@@ -1,0 +1,22 @@
+@import 'utilities/grid';
+@import 'utilities/media';
+@import 'utilities/mixins';
+
+@import 'settings/fonts';
+@import 'settings/libs';
+@import 'settings/vars';
+
+body {
+	color: $color;
+	font: $font-weight $font-size/$line-height $font-family, Arial, sans-serif;
+	background: white;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+span {
+	display: inline-block;
+}
